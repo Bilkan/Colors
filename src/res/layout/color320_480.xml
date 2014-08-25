@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="320px" 
+    android:layout_gravity="center" 
+    android:layout_height="480px" 
+    android:background="@drawable/teg">
+
+<RelativeLayout 
+android:id="@+id/LinearLayout01" 
+android:layout_height="350px" android:layout_width="280px" android:layout_marginTop="30px" android:layout_gravity="center_horizontal" android:background="@drawable/teg3" android:visibility="invisible">
+<TextView android:id="@+id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_marginTop="20px" android:textSize="30px" android:text="@string/juze"></TextView>
+<ImageView android:layout_height="200px" android:id="@+id/imgvw1" android:layout_width="280px" android:layout_centerInParent="true" android:visibility="visible" android:background="@color/b"></ImageView>
+
+
+
+
+
+
+</RelativeLayout>
+<RelativeLayout 
+android:id="@+id/LinearLayout02" 
+android:layout_gravity="center" android:layout_height="350px" android:layout_width="280px" android:gravity="center" android:layout_marginTop="-351px" android:background="@drawable/teg3">
+
+<TextView android:id="@+id/TextView02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_marginTop="-56px" android:textColor="@color/a" android:textSize="30px" android:text="@string/RED"></TextView>
+<ImageView android:id="@+id/imgvw2" android:layout_gravity="center" android:layout_height="200px" android:visibility="visible" android:layout_width="280px" android:background="@color/a"></ImageView>
+
+
+
+
+
+
+</RelativeLayout>
+<LinearLayout 
+android:id="@+id/LinearLayout02"
+android:layout_width="wrap_content" 
+android:layout_gravity="center" android:layout_height="60px" android:layout_marginTop="30px">
+<ImageButton android:background="@drawable/button_prev_normal" android:layout_width="150px" android:layout_marginTop="10px" android:layout_height="fill_parent" android:id="@+id/imgbt1"></ImageButton>
+<ImageButton android:background="@drawable/button_next_normal" android:layout_width="150px" android:layout_marginTop="10px" android:layout_height="fill_parent" android:id="@+id/imgbt2"></ImageButton>
+
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+</LinearLayout>

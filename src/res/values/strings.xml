@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, main!</string>
+    <string name="app_name">رەڭ تۇنۇش</string>
+<color name="a">#EE0000</color>
+<color name="b">#CD6600</color>
+<color name="c">#EEEE00</color>
+<color name="d">#2E8B57</color>
+<color name="e">#4169E1</color>
+<color name="f">#9400D3</color>
+<color name="j">#CD00CD</color>
+<color name="h">#8B7355</color>
+<color name="i">#000000</color>
+<color name="g">#5C5C5C</color>
+<color name="k">#FFFFFF</color>
+<string name="RED">قىزىل</string>
+<string name="juze">جۈزە رەڭ</string>
+</resources>

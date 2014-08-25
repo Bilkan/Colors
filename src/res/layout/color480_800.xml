@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_gravity="center" android:layout_height="800px" android:layout_width="480px" android:background="@drawable/teg">
+
+<RelativeLayout 
+android:id="@+id/LinearLayout01" 
+android:layout_gravity="center_horizontal" android:background="@drawable/teg3" android:visibility="invisible" android:layout_height="595px" android:layout_width="420px" android:layout_marginTop="48px">
+<TextView android:id="@+id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:text="@string/juze" android:layout_marginTop="30px" android:textSize="45px"></TextView>
+<ImageView android:id="@+id/imgvw1" android:layout_centerInParent="true" android:visibility="visible" android:background="@color/b" android:layout_height="340px" android:layout_width="420px"></ImageView>
+
+
+
+
+
+
+</RelativeLayout>
+<RelativeLayout 
+android:id="@+id/LinearLayout02" 
+android:layout_gravity="center" android:gravity="center" android:background="@drawable/teg3" android:layout_height="595px" android:layout_width="420px" android:layout_marginTop="-596px">
+
+<TextView android:id="@+id/TextView02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:textColor="@color/a" android:text="@string/RED" android:textSize="45px" android:layout_marginTop="-95px"></TextView>
+<ImageView android:id="@+id/imgvw2" android:layout_gravity="center" android:visibility="visible" android:background="@color/a" android:layout_height="340px" android:layout_width="420px"></ImageView>
+
+
+
+
+
+
+</RelativeLayout>
+<LinearLayout 
+android:id="@+id/LinearLayout02"
+android:layout_width="wrap_content" 
+android:layout_gravity="center" android:layout_height="102px" android:layout_marginTop="40px">
+<ImageButton android:background="@drawable/button_prev_normal" android:layout_height="fill_parent" android:id="@+id/imgbt1" android:layout_marginTop="15px" android:layout_width="225px"></ImageButton>
+<ImageButton android:background="@drawable/button_next_normal" android:layout_height="fill_parent" android:id="@+id/imgbt2" android:layout_marginTop="15px" android:layout_width="225px"></ImageButton>
+
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+</LinearLayout>
